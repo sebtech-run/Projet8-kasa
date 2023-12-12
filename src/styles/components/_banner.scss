@@ -1,0 +1,44 @@
+.banner {
+    position: relative;
+    border-radius: 10px;
+    height: 111px;
+    margin-bottom: 35px;
+   
+    @media screen and (min-width: $breakpoint-desktop) {
+      border-radius: 25px;
+      height: 223px;
+    }
+  
+    &__img {
+      border-radius: 25px;
+      height: 100%;
+      object-fit: cover;
+      width: 80%;
+      margin: auto;
+      display: flex;
+      filter: brightness(50%);
+    }
+   
+    &__txt {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $tertiary-color;
+      font-size: 48px;
+      font-weight: 600;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+      opacity: 1;
+    
+    
+
+      
+      @media screen and (min-width: $breakpoint-desktop) {
+        
+      
+      }
+    }
+  }

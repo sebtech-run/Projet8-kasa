@@ -1,6 +1,20 @@
-.fichelogement {
-    h1 {
-        color: red;
-        text-align: center;
-    }
-}
+//variables
+
+$breakpoint-desktop: 769px;
+$background-color: rgba(0, 0, 0, 0.3);
+$tertiary-color: #ffffff;
+$primary-color: #ff6060;
+$footer-color: #000000;
+
+
+
+@import "../styles/layout/header";
+@import "../styles/layout/footer";
+@import "../styles/components/navbar";
+@import "../styles/components/banner";
+@import "../styles/components/gallery";
+@import "../styles/components/card";
+
+
+
+
