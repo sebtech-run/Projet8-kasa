@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logements from "../datas/logements.json";
+import logements from "../datas/logement.json";
 import Card from "./card";
 
 const Gallery = () => {

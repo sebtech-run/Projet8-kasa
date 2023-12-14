@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.errorContainer {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+     
+   
+    &__Number {
+        display: flex;
+        justify-content: center;
+        color: $primary-color;
+        width: 590px;
+        height: 263px;
+         font-size: 288px;
+         font-style: normal;
+         font-weight: 700;
+         margin-top: 80px;
+         margin-bottom: 80px;
+         
+     
+      @media screen and (min-width: $breakpoint-desktop) {
+        // @include font(288px, 700);
+       
+      }
+    }
+
+    &__Text {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 500;
+       
+        font-family: 'Montserrat', sans-serif;
+        color: $primary-color;
+    
+        @media screen and (min-width: $breakpoint-desktop) {
+        //   @include font(36px, 500);
+          
+        }
+      }
+
+      &__Link {
+        display: flex;
+        justify-content: center;
+        color: $primary-color;
+        
+        font-size: 18px;
+        font-weight: 500;
+       
+    
+        @media screen and (min-width: $breakpoint-desktop) {
+        //   @include font(18px, 500);
+        //   margin-top: 7rem;
+        }
+    
+        &:hover,
+        &:focus {
+          text-decoration-line: underline;
+        }
+      }
+
+
+}

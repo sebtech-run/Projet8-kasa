@@ -6,6 +6,7 @@ import Gallery from "../components/gallery";
 import imgHomeBanner from "../images/homeBanner.png";
 
 
+
 const Home = () => {
   return (
     <div className="home">

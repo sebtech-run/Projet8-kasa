@@ -7,7 +7,8 @@
     
     
   
-    @media screen and (min-width: $breakpoint-desktop) {
+    @media screen and (max-width: 768px) {
+      width: 94%;
       
     }
   
@@ -17,12 +18,21 @@
       margin: 0;
       width: 9rem;
   
-      @media screen and (min-width: $breakpoint-desktop) {
+      @media screen and (max-width: 768px) {
         width: 13.2rem;
       }
   
       img {
-        width: 100%;
+        width: 210px;
+        height: 68px;
+
+        // @media screen and (max-width: 768px){
+        //   width: 145px;
+        // height: 46px; 
+
+        // }
+          
+        
       }
     }
   }
