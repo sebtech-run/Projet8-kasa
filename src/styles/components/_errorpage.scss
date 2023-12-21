@@ -2,30 +2,30 @@
 
 
 .errorContainer {
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
     
-     
-   
     &__Number {
         display: flex;
         justify-content: center;
         color: $primary-color;
         width: 590px;
         height: 263px;
-         font-size: 288px;
-         font-style: normal;
-         font-weight: 700;
-         margin-top: 80px;
-         margin-bottom: 80px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 288px;
+        font-weight: 700;
+        margin-top: 80px;
+        margin-bottom: 80px;
          
-     
-      @media screen and (min-width: $breakpoint-desktop) {
-        // @include font(288px, 700);
-       
+      @media screen and (max-width: 768px) {
+        font-size: 96px;
+        width: 198px;
+        height: 99px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
       }
     }
 
@@ -33,13 +33,13 @@
         text-align: center;
         font-size: 36px;
         font-weight: 500;
-       
         font-family: 'Montserrat', sans-serif;
         color: $primary-color;
     
-        @media screen and (min-width: $breakpoint-desktop) {
-        //   @include font(36px, 500);
-          
+        @media screen and (max-width: 768px) {
+        font-size: 18px;
+        font-weight: 500;
+        width: 260px;
         }
       }
 
@@ -47,14 +47,15 @@
         display: flex;
         justify-content: center;
         color: $primary-color;
-        
+        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         font-weight: 500;
        
-    
-        @media screen and (min-width: $breakpoint-desktop) {
-        //   @include font(18px, 500);
-        //   margin-top: 7rem;
+        @media screen and (max-width: 768px) {
+          margin-top: 7rem;
+          margin-bottom: 7rem;
+          font-size: 14px;
+          font-weight: 500;
         }
     
         &:hover,
@@ -62,6 +63,4 @@
           text-decoration-line: underline;
         }
       }
-
-
 }

@@ -6,6 +6,10 @@ $tertiary-color: #ffffff;
 $primary-color: #ff6060;
 $footer-color: #000000;
 
+*{
+    box-sizing: border-box;
+}
+
 
 
 @import "../styles/layout/header";
@@ -16,6 +20,8 @@ $footer-color: #000000;
 @import "../styles/components/card";
 @import "../styles/components/collapse";
 @import "../styles/components/errorpage";
+@import "../styles/components/logement/ficheLogement";
+@import "../styles/components/logement/caroussel";
 
 
 

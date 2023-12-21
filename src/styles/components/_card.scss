@@ -2,11 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-
-
 .card {
-    width: 340px;
-    height: 340px;
+    width: 100%;
+    height: 100%;
     position: relative;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -14,11 +12,8 @@
     overflow: hidden;
 
     @media screen and (max-width: 768px) {
-      
       border-radius: 5px;
-      
     }
-  
   
     &_img {
       width: inherit;
@@ -36,17 +31,15 @@
       font-family: 'Montserrat', sans-serif;
       font-size: 18px;
       font-weight: 700;
-      
-      font-style: normal;
       margin: 15px 20px;
       color: $tertiary-color;
-      box-sizing: inherit;
+      
+      
     }
   
     &_overlay {
       position: absolute;
       top: 0;
-    //   @include linear-gradient;
       height: 100%;
       width: 100%;
       border-radius: inherit;
@@ -57,7 +50,6 @@
         transform: scale(1.01);
       }
     }
-   
   }
   
   @keyframes fadeInUp {

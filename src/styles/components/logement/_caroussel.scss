@@ -1,0 +1,83 @@
+.slide {
+    position: relative;
+    width: 100%;
+    
+   
+  
+
+    .right-Arrow {
+        position: absolute;
+        right: 2%;
+        top: 25%;
+        color: white;
+        font-size: 4.5rem;
+        width: 47px;
+        height: 79px;
+        cursor: pointer;
+
+        @media screen and (max-width: 768px){
+           font-size: 2rem;
+           
+        } 
+        
+        
+    }
+
+    .left-Arrow {
+        position: absolute;
+        top: 25%;
+        left: 2%;
+        font-size: 4.5rem;
+        width: 47px;
+        height: 79px;
+        color: white;
+        cursor: pointer;
+
+        @media screen and (max-width: 768px){
+            font-size: 2rem;
+        } 
+        
+    }
+
+  
+    
+
+    .slider {
+
+        img {
+        width: 100%;
+        height: 500px;
+        border-radius: 25px;
+        object-fit: cover;
+
+        @media screen and (max-width: 768px){
+
+            height: 300px;
+    
+        } 
+    }
+
+        &__number {
+            position: absolute;
+            left: 48%;
+            top: 85%;
+            color: white;
+            font-size: 25px;
+            font-weight: 500;
+
+            @media screen and (max-width: 768px){
+                display: none;
+            } 
+        }
+       
+        
+    }
+}
+
+      
+
+       
+
+
+
+
