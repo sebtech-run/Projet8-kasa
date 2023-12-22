@@ -33,7 +33,9 @@
       font-weight: 700;
       margin: 15px 20px;
       color: $tertiary-color;
-      
+      @media screen and (max-width: 1024px) {
+       font-size: 15px;
+        }
       
     }
   

@@ -14,11 +14,17 @@
         width: 47px;
         height: 79px;
         cursor: pointer;
+       
+       
 
         @media screen and (max-width: 768px){
            font-size: 2rem;
+           display: flex;
+           justify-content: end;
+           top: 30%;
            
         } 
+      
         
         
     }
@@ -35,7 +41,9 @@
 
         @media screen and (max-width: 768px){
             font-size: 2rem;
-        } 
+            top: 30%;
+        }
+       
         
     }
 

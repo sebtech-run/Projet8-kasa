@@ -49,7 +49,7 @@
   align-items: center;
   width: 100%;
   height: 209px;
-  margin-top: 5%;
+  margin-top: 60px;
   background-color: #000000;
 }
 .footer__logo {
@@ -85,7 +85,7 @@
   .nav-header a {
     font-size: 14px;
     text-transform: uppercase;
-    padding-left: 30px;
+    padding-left: 20px;
   }
 }
 
@@ -139,6 +139,16 @@
     font-weight: 500;
     top: 35%;
     left: 5.6%;
+    right: 32.53%;
+    bottom: 80.05%;
+    padding-top: 25px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .banner__txt {
+    font-weight: 500;
+    top: 35%;
+    left: 9%;
     right: 32.53%;
     bottom: 80.05%;
     padding-top: 25px;
@@ -221,6 +231,11 @@
   margin: 15px 20px;
   color: #ffffff;
 }
+@media screen and (max-width: 1024px) {
+  .card_title {
+    font-size: 15px;
+  }
+}
 .card_overlay {
   position: absolute;
   top: 0;
@@ -264,10 +279,11 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  height: 60px;
   background-color: #ff6060;
   margin: 0 auto;
   margin-top: 1.5em;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
   .collapse__dropdown__title {
@@ -294,7 +310,12 @@
 .collapse__dropdown__title p i {
   cursor: pointer;
   padding: 1em;
-  font-size: 20px;
+  font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+  .collapse__dropdown__title p i {
+    font-size: 20px;
+  }
 }
 .collapse__dropdown__content {
   background-color: #f7f7f7;
@@ -421,6 +442,7 @@
 @media screen and (max-width: 768px) {
   .description-info__titletags__title .titre-logement {
     font-size: 25px;
+    line-height: 35px;
   }
 }
 .description-info__titletags__title .endroit-logement {
@@ -522,12 +544,21 @@
   border-radius: 25px;
   margin-right: 20px;
 }
+@media screen and (max-width: 768px) {
+  .tag-container {
+    padding: 5px 10px 10px;
+  }
+}
 .tag-container__button {
   font-size: 14px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   color: white;
-  opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  .tag-container__button {
+    font-size: 12px;
+  }
 }
 
 .slide {
@@ -547,6 +578,9 @@
 @media screen and (max-width: 768px) {
   .slide .right-Arrow {
     font-size: 2rem;
+    display: flex;
+    justify-content: end;
+    top: 30%;
   }
 }
 .slide .left-Arrow {
@@ -562,6 +596,7 @@
 @media screen and (max-width: 768px) {
   .slide .left-Arrow {
     font-size: 2rem;
+    top: 30%;
   }
 }
 .slide .slider img {

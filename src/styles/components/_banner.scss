@@ -52,5 +52,15 @@
       bottom: 80.05%;
       padding-top: 25px;
       }
+
+      @media screen and (max-width: 1024px) {
+        
+        font-weight: 500;
+        top: 35%;
+        left: 9%;
+        right: 32.53%;
+        bottom: 80.05%;
+        padding-top: 25px;
+        }
     }
   }
