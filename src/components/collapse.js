@@ -25,7 +25,7 @@ const Collapse = ({ title, content }) => {
       </div>
       {/* Si le collapse est à TRUE alors il affichera la description */}
       <div className="collapse__dropdown__content">
-        {isOpen && <p>{content}</p>}
+        {isOpen && <div>{content}</div>}
       </div>
     </div>
   );

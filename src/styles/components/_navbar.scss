@@ -1,15 +1,20 @@
 .nav-header a {
     color: $primary-color;
     text-decoration: none;
-    padding-left: 50px;
+    margin-left: 30px;
     font-size: 24px;
+    
 
-
-   
-
+       
     @media screen and (max-width: 780px) {
        font-size: 14px;
        text-transform: uppercase;
-       padding-left: 20px;
+      margin-left: 15px;
+
+      
       }
+}
+
+.nav-header a:hover {
+    border-bottom: 1px solid $primary-color;
 }
