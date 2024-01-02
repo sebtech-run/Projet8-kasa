@@ -1,13 +1,13 @@
 import React from "react"
 
 
-function Banniere({ image, texte }) {
+function Banner({ image, texte }) {
   return (
     <div className="banner">
       <img className="banner__img" src={image} alt="Bannière" />
-      <span className="banner__txt">{texte}</span>
+      { texte.length > 0 ? <span className="banner__txt">{texte}</span> : null}
     </div>
   )
 }
 
-export default Banniere
+export default Banner

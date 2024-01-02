@@ -93,6 +93,10 @@
   border-bottom: 1px solid #ff6060;
 }
 
+.active {
+  border-bottom: 1px solid #ff6060;
+}
+
 .banner {
   position: relative;
   border-radius: 10px;

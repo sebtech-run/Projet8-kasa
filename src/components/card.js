@@ -2,10 +2,7 @@ import React from 'react';
 
 
 function Card({image, title}) {
-  // const card = useRef(null)
-  // useEffect(function(){
-  //   card.current.style.height=card.current.style.width
-  // })
+ 
     return (
       <div className="card">
         <img src={image} alt={title} className="card_img" />

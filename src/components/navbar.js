@@ -4,10 +4,14 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <nav className="nav-header">
-      <NavLink to="/" className="nav-header__nav-link-home">
+      <NavLink to="/" className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "active" : ""
+  }>
         Accueil
       </NavLink>
-      <NavLink to="/about" className="nav-header__nav-link-about">
+      <NavLink to="/about"  className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "active" : ""
+  }>
         A Propos
       </NavLink>
     </nav>
